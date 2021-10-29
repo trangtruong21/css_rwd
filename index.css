@@ -1,0 +1,30 @@
+.image {
+    float: left;
+    width: 25%;
+    padding: 0 6px;
+}
+.gallery img {
+    width: 100%;
+    
+}
+* {
+    box-sizing: border-box;
+}
+@media screen  and (min-width : 300px) {
+   .image {
+      width: 100%;
+      background-color: yellow;
+   }
+}
+@media screen  and (min-width : 600px) {
+   .image {
+      width: 50%;
+      background-color: turquoise;
+   }
+}
+@media screen  and (min-width: 1000px){
+    .image {
+        width: 25%;
+        background-color: pink;
+    }
+}
